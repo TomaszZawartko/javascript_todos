@@ -1,0 +1,67 @@
+body{
+    background: #352f5b;
+}
+
+.container{
+    max-width: 400px;
+}
+
+.add{
+    position: relative;
+    top: 50px;
+}  
+
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+    
+    position: relative;
+    float: left;
+}
+
+.todos{
+	position: relative;
+    top: 40px;
+    right: 370px;
+}
+
+.todos li{
+    background: #423a6f;
+    float: left;
+    width: 370px;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+#todoHeader i {
+    float:left;
+    margin-right:1px;
+    position: relative;
+    top:1px;
+    left:15px;
+}
+
+form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #423a6f;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.search button:hover {
+    background: #2e294e;
+}
+
+.filtered{
+    display: none !important;
+}
